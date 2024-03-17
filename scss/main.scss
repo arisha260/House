@@ -1,0 +1,107 @@
+@import "vars.scss";
+@import "fonts.scss";
+@import "zeroing-out.scss";
+
+@import "header.scss";
+@import "hero.scss";
+@import "products.scss";
+@import "news.scss";
+@import "about.scss";
+@import "footer.scss";
+@import "media.scss"; 
+
+//! Общие стили (тексты)
+.main-link{
+    
+}
+
+
+//! Общие стили (кнопки)
+.btn{
+    display: inline-block;  
+    text-align: center;
+    font-family: var(--font-family);
+    border: transparent;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    padding: 20px 40px;
+    color: var(--green);
+    transition: border-color 0.3s ease-in-out, background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+    &:focus{
+        color: var(--green);
+        background-color: var(--green-light);
+    }
+    &:hover{
+        color: var(--white);
+        background-color: var(--green);
+    }
+    &:active{
+        color: var(--white);
+        background-color: var(--green-black);
+        border-color: var(--green-black);
+    }
+}
+.btn--stroke{
+    border: 1px solid currentColor;
+}
+.btn--fill{
+    background-color: var(--yellow);
+    color: var(--dark);
+    &:focus{
+        color: var(--dark);
+        background-color: var(--yellow-light);
+    }
+    &:hover{
+        color: var(--dark);
+        background-color: var(--yellow-light);
+        border-color: var(--yellow-black);
+    }
+    &:active{
+        background-color: var(--yellow-black);
+        border-color: var(--yellow-black);
+    }
+}
+
+
+//! Общие стили (заголовки)
+
+
+
+
+//! Общие стили (js)
+.products__button.active-list{
+    background-color: var(--green-black);
+    color: var(--white);
+}   
+
+
+
+//! Общие стили для меню бургер
+.header-burger{
+    display: none;
+}
+.disable-body{
+    overflow: hidden;
+}
+
+
+
+
+
+//! Общие стили для секции hero
+
+
+
+
+
+
+//! Общие стили для секции hero
+
+
+
+
+
+
+
+//! Общие стили для секции hero

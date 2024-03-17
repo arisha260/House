@@ -1,0 +1,38 @@
+.hero{
+    &__container{
+        align-items: center;
+        column-gap: var(--gap);
+    }
+    &__left{
+        padding-top: 145px;
+        grid-column: 6 span;
+    }
+    &__right{
+        grid-column: 6 span;
+    }
+    &__title{
+        margin: 0;
+        margin-bottom: 20px;
+        font-family: var(--font-family);
+        font-weight: 500;
+        font-size: 60px;
+        line-height: 110%;
+        color: var(--dark);
+        span{
+            color: var(--green);
+        }
+    }
+    &__text{
+        margin: 0;
+        margin-bottom: 60px;
+        font-family: var(--font-family);
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 150%;
+        color: var(--dark-text);
+    }
+    &__button{
+        min-width: 225px; 
+        border: 1px solid var(--green);
+    }
+}

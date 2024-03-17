@@ -1,0 +1,33 @@
+.about{
+    padding: 70px 0;
+    &__container{
+        align-items: center;
+        column-gap: var(--gap);
+    }
+    &__left{
+        grid-column: 5 span;
+    }
+    &__right{
+        padding-top: 93px;
+        grid-column: 7 span;
+    }
+    &__title{
+        margin-bottom: 20px;
+        font-family: var(--font-family);
+        font-weight: 500;
+        font-size: 40px;
+        line-height: 110%;
+        color: var(--black);
+    }
+    &__text{
+        margin-bottom: 20px;
+        font-family: var(--font-family);
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 150%;
+        color: var(--black);
+    }
+    &__team{
+        column-gap: var(--gap);
+    }
+}

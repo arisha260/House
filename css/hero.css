@@ -1,0 +1,37 @@
+.hero__container {
+  align-items: center;
+  -moz-column-gap: var(--gap);
+       column-gap: var(--gap);
+}
+.hero__left {
+  padding-top: 145px;
+  grid-column: 6 span;
+}
+.hero__right {
+  grid-column: 6 span;
+}
+.hero__title {
+  margin: 0;
+  margin-bottom: 20px;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 110%;
+  color: var(--dark);
+}
+.hero__title span {
+  color: var(--green);
+}
+.hero__text {
+  margin: 0;
+  margin-bottom: 60px;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 150%;
+  color: var(--dark-text);
+}
+.hero__button {
+  min-width: 225px;
+  border: 1px solid var(--green);
+}/*# sourceMappingURL=hero.css.map */

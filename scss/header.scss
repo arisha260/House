@@ -1,0 +1,31 @@
+.header{
+    background-color: var(--green-light1);
+    padding: 33px 0;
+    &__container{
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__left{
+        img{
+            display: inline-block;
+        }  
+    }
+
+    &__right{
+        display: flex;
+        justify-content: space-between;
+        gap: 60px;
+    }
+    &__list{
+        gap: 60px;
+        align-items: center;
+        transition: left 0.5s ease;
+    }
+    &__link{
+        font-family: var(--font-family);
+        font-weight: 500;
+        font-size: 20px;
+        color: var(--dark);
+    }
+
+}

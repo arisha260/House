@@ -1,0 +1,35 @@
+.about {
+  padding: 70px 0;
+}
+.about__container {
+  align-items: center;
+  -moz-column-gap: var(--gap);
+       column-gap: var(--gap);
+}
+.about__left {
+  grid-column: 5 span;
+}
+.about__right {
+  padding-top: 93px;
+  grid-column: 7 span;
+}
+.about__title {
+  margin-bottom: 20px;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 110%;
+  color: var(--black);
+}
+.about__text {
+  margin-bottom: 20px;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 150%;
+  color: var(--black);
+}
+.about__team {
+  -moz-column-gap: var(--gap);
+       column-gap: var(--gap);
+}/*# sourceMappingURL=about.css.map */
